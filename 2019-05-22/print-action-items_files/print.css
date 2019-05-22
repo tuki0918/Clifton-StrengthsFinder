@@ -1,0 +1,264 @@
+﻿/* WebIcons to support navigation and icons ----------------------------------- */
+@font-face {
+    font-family: 'Conv_GELWebFontV1-Regular';
+    src: url('/Content/fonts/GELWebFontV1-Regular.eot');
+    src: url('/Content/fonts/GELWebFontV1-Regular.eot#iefix') format('embedded-opentype'),
+        url('/Content/fonts/GELWebFontV1-Regular.woff') format('woff'),
+        url('/Content/fonts/GELWebFontV1-Regular.ttf') format('truetype'),
+        url('/Content/font/GELWebFontV1-Regular.svg#GELWebFontV1-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+html {
+    overflow-y: scroll;
+    -ms-text-size-adjust: 62.5%;
+    -webkit-text-size-adjust: 62.5%;
+    font-size: 62.5%;
+}
+
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: Georgia, "Times New Roman", Serif;
+    color: #252626;
+}
+
+.container .nav,
+.container .bannerNav,
+.menuButton,
+.navHeader,
+.skiplist,
+.button,
+.image,
+.backLink {
+    display: none;
+}
+
+.clearfix:after,
+.row:after,
+.buttons:after,
+.navigation ul:after,
+.inner:after,
+.element:after,
+.item:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: " ";
+    font-size: 0;
+}
+
+.container {
+    padding: 1.143em;
+}
+
+/* Vertical Spacing ---------------------------------------------------------- */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+.element,
+.buttons {
+    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
+    margin-top: 24px;
+    margin-top: 2.4rem;
+    vertical-align: text-bottom;
+}
+
+/* General Formating --------------------------------------------------------- */
+/* Uppercase */
+h1,
+h2,
+h3,
+h6 {
+    text-transform: uppercase;
+}
+/* Bold */
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
+.label,
+.large {
+    font-weight: bold;
+}
+
+/* Normal */
+h6 {
+    font-weight: normal;
+}
+
+
+.preformat { /* legacy old invoice */
+    white-space: pre;
+    font-size: 16px; /* IE Only */
+    font-size: 1.6rem;
+    line-height: 1.5; /* (1 * 24) / 16 = 1.5 */
+}
+
+/* Typographic Styles -------------------------------------------------------- */
+p,
+li,
+label,
+.acceptText,
+th,
+td {
+    font-size: 16px; /* IE Only */
+    font-size: 1.6rem;
+    line-height: 1.500; /* (1 * 24) / 16 = 1.5 */
+}
+
+h1 {
+    font-size: 34px; /* IE Only */
+    font-size: 3.4rem;
+    line-height: 1.2; /* UPPERCASE at 1.2 */ /*line-height: 1.4118;  (2 * 24) / 34 = 1.41176... */
+}
+
+h2 {
+    font-size: 23px; /* IE Only */
+    font-size: 2.3rem;
+    line-height: 1.2; /* UPPERCASE at 1.2 */ /*line-height: 1.5652;  (1.5 * 24) / 23 = 1.5652173... */
+}
+
+h3,
+.large {
+    font-size: 20px; /* IE Only */
+    font-size: 2.0rem;
+    line-height: 1.2; /* UPPERCASE at 1.2 */ /*line-height: 1.2000;  (1 * 24) / 20 = 1.2 */
+}
+
+h4 {
+    font-size: 16px; /* IE Only */
+    font-size: 1.6rem;
+    line-height: 1.500; /* (1 * 24) / 16 = 1.5 */
+}
+
+h5,
+h5 span.asterisk,
+.note,
+.field-validation-error {
+    font-size: 13px; /* IE Only */
+    font-size: 1.3rem;
+    line-height: 1.8462; /* (1 * 24) / 13 = 1.84615... */
+}
+
+.note10,
+h6 {
+    font-size: 10px; /* IE Only */
+    font-size: 1.0rem;
+    line-height: 1.2; /* UPPERCASE at 1.2 */ /* (1 * 24) / 10 = 2.4... */
+}
+
+
+
+
+
+th {
+    text-align:left;}
+p {
+    line-height:1.5em;padding: 0 0 0.571em 0;margin:0;}
+p + ul, p + ol {
+    margin-top:0;}
+p + p {
+    padding-top:0;}
+.gridlogo h1 a {
+    text-decoration:none;color:#252626;}
+.gridlogo h1 a span span {
+    font:0.833em Arial,Helvetica,Sans-serif;color:#595b5c;}
+.spaceHeader {
+    margin-top:2.286em;}
+.purchaseTable {
+    font-size: 0.786em;font-family:Arial,Helvetica,Sans-serif;margin:1px 1px 0.571em;padding:1px 0;
+    border:1px solid #b5b6b3;border-collapse:collapse;}
+.purchaseTable th {
+    white-space:nowrap;padding:0.517em;
+    border:1px solid #b5b6b3;
+    background: #ebebeb;}
+.purchaseTable td {
+    white-space:nowrap;padding:0.517em;
+    border:1px solid #b5b6b3;}
+
+#gdbanner {
+    margin-bottom: 2.286em;
+}
+
+.gel-logo a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 24px;
+    color: #000;
+}
+
+    .gel-logo a > span.hiddenIR {
+        display: none;
+    }
+
+    .gel-logo a:before {
+        font-family: "Conv_GELWebFontV1-Regular";
+        content: "\0047";
+        font-size: 48px;
+        line-height: 64px;
+    }
+    
+    .gel-logo a:after {
+        font-family: "Conv_GELWebFontV1-Regular";
+        content: "\0038";
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+#gdfooter {
+    margin-top: 2.286em;
+}
+
+.top5 h3 {
+    text-transform:uppercase;margin:0 0 0.571em;}
+.top5 .theme {
+    font-weight:bold;font-size:0.929em;padding:0.286em 0;line-height:2em;}
+.top5 .theme span {
+    float:left;display:block;width:2em;height:2em;line-height:1.714em;color:#9c0000;text-align:center;margin-right:1.143em;
+	border:2px solid #d5d6d2;-moz-border-radius:2em;-webkit-border-radius:2em;border-radius:2em;}
+
+.actionItemName td {
+    vertical-align: top;
+    padding: 8px;
+}
+
+.ie8 .gel-logo a:before {
+    content: 'Gallup';
+    font-family: Georgia, "Times New Roman", serif;
+    text-transform: uppercase;
+    margin-right: 6px;
+}
+.ie8 .gel-logo a:after {
+    content: 'Strengths Center';
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ie8 #gdfooter .row0,
+.ie8 #gdfooter .row1,
+.ie8 #gdfooter .row2 .col1 {
+    display: none;
+}
+
+.ie8 #gdfooter .copyright p {
+    margin-bottom: 0;
+}
